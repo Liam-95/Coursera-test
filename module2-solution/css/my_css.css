@@ -11,7 +11,6 @@ h1 {
 .row {
     width: 103%;
     margin: 5px;
-    background-color: white;
 }
 
 .block {
@@ -19,7 +18,7 @@ h1 {
     display: inline-block;
     text-align: right;
     border: 3px solid black;
-    margin: 5px;
+    padding: auto;
     height: auto;
 }
 
@@ -34,7 +33,7 @@ span {
     text-align: center;
 }
 
-.this {
+.meals {
     text-align: left;
     font-weight: bold;
     font-size: 18px;
@@ -76,9 +75,9 @@ span {
         width: 100%;
     }
 
-    .block{
-    	margin: 5px;
-    	margin-bottom: 20px;
+    .block {
+        margin: 5px;
+        margin-bottom: 20px;
     }
 
 
@@ -96,6 +95,11 @@ span {
 
     #divs {
         width: 100%;
+    }
+
+    .block {
+        margin: 5px;
+        margin-bottom: 20px;
     }
 }
 
