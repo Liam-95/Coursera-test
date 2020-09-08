@@ -84,7 +84,7 @@ span {
 }
 
 /*smartphone view*/
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     #divc {
         width: 100%;
     }
