@@ -76,6 +76,11 @@ span {
         width: 100%;
     }
 
+    .block{
+    	margin: 5px;
+    	margin-bottom: 20px;
+    }
+
 
 }
 
