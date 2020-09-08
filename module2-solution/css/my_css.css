@@ -4,6 +4,7 @@
 }
 
 h1 {
+	font-size: 31.5px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -14,10 +15,11 @@ h1 {
 }
 
 .block {
+	float: center;
     background-color: grey;
     display: inline-block;
     text-align: right;
-    border: 3px solid black;
+    border: 2px solid black;
     padding: auto;
     height: auto;
 }
@@ -28,8 +30,8 @@ span {
     display: inline-block;
     width: 30%;
     height: auto;
-    font-size: 25px;
-    border: 3px solid black;
+    font-size: 22.5px;
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -56,6 +58,7 @@ span {
 @media (min-width: 992px) {
 
     .block {
+    	margin: 5px;
         width: 31%;
     }
 }
@@ -72,19 +75,21 @@ span {
     }
 
     #divs {
-        width: 100%;
+        width: 96.5%;
+        margin-right: 5px;
+        padding-right: 5px;
     }
 
-    .block {
-        margin: 5px;
-        margin-bottom: 20px;
+    .block{
+    	margin: 5px;
+    	margin-bottom: 20px;
     }
 
 
 }
 
 /*smartphone view*/
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     #divc {
         width: 100%;
     }
@@ -96,10 +101,8 @@ span {
     #divs {
         width: 100%;
     }
-
-    .block {
-        margin: 5px;
-        margin-bottom: 20px;
+    .block{
+    	margin-bottom: 20px;
     }
 }
 
