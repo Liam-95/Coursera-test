@@ -11,5 +11,8 @@
     "url": "https://github.com/Liam-95/Coursera-test/tree/master/Front-End%20Web%20Dev"
   },
   "author": "Liam Behar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
