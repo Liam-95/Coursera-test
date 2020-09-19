@@ -6,11 +6,11 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Liam-95/Coursera-test/tree/master/Front-End%20Web%20Dev"
+    "url": "https://github.com/Liam-95/Coursera/tree/master/Front-End%20Web%20Dev"
   },
   "author": "Liam Behar",
   "license": "ISC",
